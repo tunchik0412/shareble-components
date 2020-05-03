@@ -1,8 +1,9 @@
 {
   "name": "shareble-components",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
+    "@bit/tunchik0412.dialogprovider.dialogs": "^1.0.0",
     "@material-ui/core": "^4.9.12",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -31,5 +32,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react@1.0.17"
+    },
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "npm"
   }
 }

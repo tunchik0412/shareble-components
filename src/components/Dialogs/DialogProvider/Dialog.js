@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import DialogContext from "../../context/DialogContext";
+import DialogContext from "../context/DialogContext";
 import { Dialog } from "@material-ui/core";
 
 const DialogProvider = (props) => {
